@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react'
+import PropTypes from 'prop-types'
 
-export default function ExitButton({ height, width, fill, stroke, onClick }) {
+export default function ExitButton ({ height, width, fill, stroke, onClick }) {
   return (
     <>
       <button className="bg-transparent" onClick={onClick} type="button">
@@ -24,7 +24,7 @@ export default function ExitButton({ height, width, fill, stroke, onClick }) {
         </svg>
       </button>
     </>
-  );
+  )
 }
 
 ExitButton.propTypes = {
@@ -33,11 +33,11 @@ ExitButton.propTypes = {
   fill: PropTypes.string,
   stroke: PropTypes.string,
   onClick: PropTypes.func.isRequired
-};
+}
 
 ExitButton.defaultProps = {
-  height: "40",
-  width: "40",
-  fill: "none",
-  stroke: "currentColor",
-};
+  height: '40',
+  width: '40',
+  fill: 'none',
+  stroke: 'currentColor'
+}
