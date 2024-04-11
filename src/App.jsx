@@ -85,7 +85,6 @@ function App () {
   }
 
   return (
-    <>
       <AppLayout onClose={onClose}>
         <DrawerCustom
           open={isLeftOpen}
@@ -99,8 +98,6 @@ function App () {
         </DrawerCustom>
         {!loanding && renderSteps(step)}
       </AppLayout>
-
-    </>
   )
 }
 
